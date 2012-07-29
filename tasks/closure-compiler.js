@@ -24,7 +24,8 @@ module.exports = function(grunt) {
     }
 
     var closureCompilerDir = process.env.CLOSURE_PATH,
-        command = 'java -jar ' + closureCompilerDir + '/build/compiler.jar',
+        compilerFilePath = this.data.compilerFilePath || '/build/compiler.jar',
+        command = 'java -jar ' + closureCompilerDir + compilerFilePath,
         reportFile = '',
         data = this.data,
         done = this.async();
@@ -46,7 +47,7 @@ module.exports = function(grunt) {
     // Build command line.
     command += ' --js ' + data.js.join(' --js ');
     
-    if (data.js.length) {
+    if (data.externs.length) {
       // Add --externs flag only if valid externs are present.
       command += ' --externs ' + data.externs.join(' --externs ');
     }
