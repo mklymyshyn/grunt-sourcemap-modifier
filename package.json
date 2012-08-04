@@ -22,7 +22,7 @@
   ],
   "main": "grunt.js",
   "bin": {
-    "grunt-sourcemap-modifier": "bin/sourcemap-modifier"
+    "grunt-sourcemap-modifier": "bin/grunt-sourcemap-modifier"
   },
   "engines": {
     "node": ">=0.8.0"
