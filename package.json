@@ -1,34 +1,31 @@
 {
-  "name": "grunt-closure-compiler",
-  "description": "A Grunt task for Closure Compiler.",
-  "version": "0.0.4",
-  "homepage": "https://github.com/gmarty/grunt-closure-compiler",
+  "name": "grunt-sourcemap-modifier",
+  "description": "SourceMap modifier to correct paths",
+  "version": "0.1.1",
+  "homepage": "https://github.com/joymax/grunt-sourcemap-modifier",
   "author": {
-    "name": "Guillaume Marty",
-    "email": "edo999@gmail.com"
+    "name": "Maksym Klymyshyn",
+    "email": "klymyshyn@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gmarty/grunt-closure-compiler.git"
+    "url": "git@github.com:joymax/grunt-sourcemap-modifier.git"
   },
   "bugs": {
-    "url": "https://github.com/gmarty/grunt-closure-compiler/issues"
+    "url": "https://github.com/joymax/grunt-sourcemap-modifier/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/gmarty/grunt-closure-compiler/blob/master/LICENSE-MIT"
+      "url": "https://github.com/joymax/grunt-sourcemap-modifier/blob/master/LICENSE-MIT"
     }
   ],
   "main": "grunt.js",
   "bin": {
-    "grunt-closure-compiler": "bin/grunt-closure-compiler"
+    "grunt-sourcemap-modifier": "bin/sourcemap-modifier"
   },
   "engines": {
     "node": ">=0.8.0"
-  },
-  "scripts": {
-    "test": "grunt test"
   },
   "dependencies": {
     "grunt": "~0.3.7"
@@ -39,6 +36,7 @@
   "keywords": [
     "Closure Compiler",
     "Minification",
-    "Performance"
+    "Performance",
+    "SourceMap"
   ]
 }
