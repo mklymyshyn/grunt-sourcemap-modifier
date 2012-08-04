@@ -97,6 +97,8 @@ module.exports = function(grunt) {
           });
 
         });
+      } else {
+        done();
       }
 
     });
