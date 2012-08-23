@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/joymax/grunt-sourcemap-modifier.png)](http://travis-ci.org/joymax/grunt-sourcemap-modifier)
 # grunt-sourcemap-modifier
 
 A Grunt task for [Closure Compiler Source Maps](http://code.google.com/p/closure-compiler/wiki/SourceMaps) modifications. By default **Closure Compiler** hardcode path to source and file during compilation. It's easy to solve using Makefiles but it's quite inconvenient using [Grunt](https://github.com/cowboy/grunt).
